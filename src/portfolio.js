@@ -344,7 +344,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all. ",
   number: "+7880310354",
   email_address: "nikunjraghav511@gmail.com"
 };
