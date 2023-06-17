@@ -62,24 +62,3 @@ To run the project on a local development server, follow these steps:
 
 4. As you make changes, the website will automatically reload in the browser, allowing you to see the updates in real-time.
 
-## Customization
-
-To customize the portfolio website according to your preferences, follow these steps:
-
-1. Update the `src/data` directory with your own data.
-
-   - Modify the `projects.js` file to include information about your projects.
-   - Modify the `skills.js` file to include your skills and proficiency levels.
-   - Modify the `about.js` file to provide information about yourself.
-   - Modify the `contact.js` file to specify how visitors can get in touch with you.
-
-2. Modify the content of the pages in the `src/pages` directory.
-
-   - Update the `Home.js` file to personalize the homepage content.
-   - Update the `Projects.js` file to customize the projects page.
-   - Update the `About.js` file to add your own content about yourself.
-   - Update the `Contact.js` file to customize the contact page.
-
-3. Customize the styling of the website by modifying the CSS or SCSS files in the `src/styles` directory.
-
-4. Add your own images or replace the existing ones in
