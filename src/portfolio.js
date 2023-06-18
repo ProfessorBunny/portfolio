@@ -26,7 +26,7 @@ const greeting = {
     "An MSc Software Systems graduate with a talent for web development. I've got 1 year of experience as a junior developer working with JavaScript, React and Python. I'm self-motivated, highly organized & reliable team player. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17KOfi4Zw0YABtOVmpouIl3WPdTUcQKBx/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17KOfi4Zw0YABtOVmpouIl3WPdTUcQKBx/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
