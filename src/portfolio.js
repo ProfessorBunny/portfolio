@@ -279,7 +279,7 @@ const achievementSection = {
       imageAlt: "Coding blocks logo",
       footerLink: [
         {
-          name: "View Crux course catalog",
+          name: "View Crux Course Catalog",
           url: "https://coding-blocks.github.io/classroom-courses/java-for-beginners.html"
         },
         {
@@ -290,7 +290,7 @@ const achievementSection = {
     },
 
     {
-      title: "Digital Forensics and Cyber Security ",
+      title: "Cyber Security ",
       subtitle:
         "Specialization in Digital Forensics and Cyber Security at MRIIRS in collaboration with IBM",
       image: require("./assets/images/mriirs.png"),
