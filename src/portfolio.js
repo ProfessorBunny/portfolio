@@ -221,7 +221,7 @@ const bigProjects = {
     {
       image: require("./assets/images/valo papers.png"),
       projectName: "Valorant Wallpapers",
-      projectDesc: "Web App for downloading AI enhnaced wallapers via valorant api using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via aws CDN, frontend is based on react js & next js and uses cloudinary to serve optimized wallpapers",
+      projectDesc: "Web App for downloading AI enhanced wallpapers via valorant API using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via AWS CDN, frontend is based on react JS & next JS and uses cloudinary to serve optimized wallpapers.",
       footerLink: [
         {
           name: "Visit Website",
@@ -237,7 +237,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Repository",
-          url: "http://nextu.se/"
+          url: "https://github.com/ProfessorBunny/real-time-sign-language-detection"
         }
       ]
     }
