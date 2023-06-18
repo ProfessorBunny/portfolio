@@ -177,7 +177,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Rites Ltd.",
       companylogo: require("./assets/images/rites.png"),
-      date: "June 2019 – July 2020",
+      date: "June 2019 – July 2019",
       desc: "Developed a secure registration system for the company vendors",
       descBullets: [
         "Worked under the guidance of software development team.",
@@ -201,7 +201,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some Big Personal Projects that I have developed   recently ",
+  subtitle: "Some Startups I helped create their tech and my major Personal Projects ",
   projects: [
     {
       image: require("./assets/images/valo papers.png"),
@@ -223,6 +223,21 @@ const bigProjects = {
         {
           name: "Visit Repository",
           url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/SLD.png"),
+      projectName: "Website development for SRA Homez",
+      projectDesc: "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.srahomez.com/"
+        },
+        {
+          name: "Contact Owner for reference",
+          url: "https://www.instagram.com/srasaihomez/"
         }
       ]
     }
@@ -248,6 +263,10 @@ const achievementSection = {
           name: "View Published Paper",
           url: "https://ieeexplore.ieee.org/document/9214204"
         },
+        {
+          name: "View Repository",
+          url: "https://github.com/ProfessorBunny/homer-v2"
+        }
       ]
     },
     {
@@ -274,11 +293,12 @@ const achievementSection = {
       image: require("./assets/images/mriirs.png"),
       imageAlt: "MRIIRS logo",
       footerLink: [
-        { name: "Certification", url: "" },
+
         {
           name: "View Program Highlights",
           url: "https://mriirs.edu.in/course/b-tech-cse-digital-forensics-and-cyber-security-in-association-with-ibm-mriirs/"
-        }
+        },
+        { name: "Certification", url: "" }
       ]
     }
   ],
@@ -287,20 +307,39 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
+const basicProjects = {
+  title: "Basic Projects",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff here are some basic projects I have built",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "",
-      title: "",
+      url: "https://guessthecolour.glitch.me/",
+      title: "Guess The Colour",
       description:
-        ""
+        "A RGB code game web app that generates a random RGB value and set of random colors for user to guess the correct one. It uses DOM manipulation to provide interactive game-play to user."
     },
+    {
+      url: "https://yourtodolist.glitch.me/",
+      title: "To Do List",
+      description:
+        "A simple interactive web app build using jQuery that allows user to add new task, mark of old task or completely remove an existing task."
+    },
+    {
+      url: "https://monthly-expenses-tracking.netlify.app/",
+      title: "Monthly Expense Tracker",
+      description:
+        "A React web app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
+    },
+    // {
+    //   url: "https://food-order-demo-app.netlify.app/",
+    //   title: "Food Order App",
+    //   description:
+    //     "A web app that loads products from a database (hosted at firebase) then uses react to provide interactive UI for it's users. The cart information after placing the order is stored in the database."
+    // },
+
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -364,7 +403,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  basicProjects,
   talkSection,
   podcastSection,
   contactInfo,

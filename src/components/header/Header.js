@@ -6,9 +6,11 @@ import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
   workExperiences,
+  educationInfo,
   skillsSection,
+  bigProjects,
   openSource,
-  blogSection,
+  basicProjects,
   talkSection,
   achievementSection
 } from "../../portfolio";
@@ -19,8 +21,11 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
+  const viewProjects = basicProjects.display;
+  const viewBigProjects = bigProjects.display;
   const viewTalks = talkSection.display;
+  const viewEducationInfo = educationInfo.display;
+
 
   return (
     <Headroom>
@@ -44,6 +49,11 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewEducationInfo && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
@@ -54,17 +64,23 @@ function Header() {
               <a href="#opensource">Open Source</a>
             </li>
           )} */}
+
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {/* {viewProjects && (
+            <li>
+              <a href="#blogs">Projects</a>
+            </li>
+          )} */}
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {/* {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
