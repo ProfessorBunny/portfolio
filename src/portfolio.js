@@ -255,7 +255,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Publication in IEEEEEE Xplore",
+      title: "Publication in IEEE Xplore",
       subtitle:
         "HOMER: Cryptography based Currency Detection System for Visually Impaired People",
       image: require("./assets/images/ieee.png"),
