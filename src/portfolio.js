@@ -204,6 +204,21 @@ const bigProjects = {
   subtitle: "Some Startups I helped create their tech and my major Personal Projects ",
   projects: [
     {
+      image: require("./assets/images/sra.png"),
+      projectName: "Website development for SRA Homez",
+      projectDesc: "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.srahomez.com/"
+        },
+        {
+          name: "Contact Owner for reference",
+          url: "https://www.instagram.com/srasaihomez/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/valo papers.png"),
       projectName: "Valorant Wallpapers",
       projectDesc: "Web App for downloading AI enhnaced wallapers via valorant api using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via aws CDN, frontend is based on react js & next js and uses cloudinary to serve optimized wallpapers",
@@ -223,21 +238,6 @@ const bigProjects = {
         {
           name: "Visit Repository",
           url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/SLD.png"),
-      projectName: "Website development for SRA Homez",
-      projectDesc: "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.srahomez.com/"
-        },
-        {
-          name: "Contact Owner for reference",
-          url: "https://www.instagram.com/srasaihomez/"
         }
       ]
     }
