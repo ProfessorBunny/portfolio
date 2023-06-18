@@ -7,11 +7,6 @@ This is a README file for a React portfolio website project. The purpose of this
 - [Project Overview](#project-overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Customization](#customization)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
