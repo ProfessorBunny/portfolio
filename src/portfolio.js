@@ -24,7 +24,6 @@ const greeting = {
   title: "Hi all, I'm Nikunj",
   subTitle: emoji(
     "An MSc Software Systems graduate with a talent for web development. I've got 1 year of experience as a junior developer working with JavaScript, React and Python. I'm self-motivated, highly organized & reliable team player. "
-
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -47,14 +46,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Next Js and some other libraries and frameworks. Currently exploring the world of mobile application with react native.",
+  subTitle:
+    "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Next Js and some other libraries and frameworks. Currently exploring the world of mobile application with react native.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji(
-      "⚡ Integration of third party services such as Firebase"
-    )
+    emoji("⚡ Integration of third party services such as Firebase")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -122,7 +120,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Manav Rachna International Institute of Research and Studies",
+      schoolName:
+        "Manav Rachna International Institute of Research and Studies",
       logo: require("./assets/images/mriirs.png"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "June 2016 - July 2020",
@@ -151,7 +150,7 @@ const techStack = {
     {
       Stack: "Backend",
       progressPercentage: "50%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -184,8 +183,7 @@ const workExperiences = {
         "Learned how to work as team under scrum project management framework.",
         "I was part of the team which was also responsible for maintenance of the company and client websites."
       ]
-    },
-
+    }
   ]
 };
 
@@ -201,12 +199,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some Startups I helped create their tech and my major Personal Projects ",
+  subtitle:
+    "Some Startups I helped create their tech and my major Personal Projects ",
   projects: [
     {
       image: require("./assets/images/sra.png"),
       projectName: "Website development for SRA Homez",
-      projectDesc: "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
+      projectDesc:
+        "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
       footerLink: [
         {
           name: "Visit Website",
@@ -221,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/valo papers.png"),
       projectName: "Valorant Wallpapers",
-      projectDesc: "Web App for downloading AI enhanced wallpapers via valorant API using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via AWS CDN, frontend is based on react JS & next JS and uses cloudinary to serve optimized wallpapers.",
+      projectDesc:
+        "Web App for downloading AI enhanced wallpapers via valorant API using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via AWS CDN, frontend is based on react JS & next JS and uses cloudinary to serve optimized wallpapers.",
       footerLink: [
         {
           name: "Visit Website",
@@ -233,7 +234,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SLD.png"),
       projectName: "Real Time SLD",
-      projectDesc: "Sign Language Detection Model built completely using Python. Dataset was made of numpy arrays which contained the keypoints that were collected using mediapipe holistic to train a deep neural network model consisting of LSTM layers, then all of it was combined using OpenCV to perform detection in real time.",
+      projectDesc:
+        "Sign Language Detection Model built completely using Python. Dataset was made of numpy arrays which contained the keypoints that were collected using mediapipe holistic to train a deep neural network model consisting of LSTM layers, then all of it was combined using OpenCV to perform detection in real time.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -289,16 +291,16 @@ const achievementSection = {
 
     {
       title: "Digital Forensics and Cyber Security ",
-      subtitle: "Specialization in Digital Forensics and Cyber Security at MRIIRS in collaboration with IBM",
+      subtitle:
+        "Specialization in Digital Forensics and Cyber Security at MRIIRS in collaboration with IBM",
       image: require("./assets/images/mriirs.png"),
       imageAlt: "MRIIRS logo",
       footerLink: [
-
         {
           name: "View Program Highlights",
           url: "https://mriirs.edu.in/course/b-tech-cse-digital-forensics-and-cyber-security-in-association-with-ibm-mriirs/"
         },
-        { name: "Certification", url: "" }
+        {name: "Certification", url: ""}
       ]
     }
   ],
@@ -330,14 +332,13 @@ const basicProjects = {
       title: "Monthly Expense Tracker",
       description:
         "A React web app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
-    },
+    }
     // {
     //   url: "https://food-order-demo-app.netlify.app/",
     //   title: "Food Order App",
     //   description:
     //     "A web app that loads products from a database (hosted at firebase) then uses react to provide interactive UI for it's users. The cart information after placing the order is stored in the database."
     // },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -368,9 +369,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
