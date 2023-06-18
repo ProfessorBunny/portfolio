@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A passionate Full Stack Web Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Next Js and some other libraries and frameworks. Currently exploring the world of mobile application with react native.",
+  subTitle: "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Next Js and some other libraries and frameworks. Currently exploring the world of mobile application with react native.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -201,24 +201,24 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some Big Personal Projects that I have developed recently ",
+  subtitle: "Some Big Personal Projects that I have developed   recently ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/valo papers.png"),
       projectName: "Valorant Wallpapers",
-      projectDesc: "Web App for downloading valorant wallapers",
+      projectDesc: "Web App for downloading AI enhnaced wallapers via valorant api using a python service that uses realesrgan algorithm to upscale wallpapers. Upscaled wallpapers are uploaded to s3 bucket and hosted via aws CDN, frontend is based on react js & next js and uses cloudinary to serve optimized wallpapers",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://valopapers.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/SLD.png"),
       projectName: "Real Time SLD",
-      projectDesc: "Sign Language Detection Model using OpenCV",
+      projectDesc: "Sign Language Detection Model built completely using Python. Dataset was made of numpy arrays which contained the keypoints that were collected using mediapipe holistic to train a deep neural network model consisting of LSTM layers, then all of it was combined using OpenCV to perform detection in real time.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -294,19 +294,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        ""
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -319,13 +313,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -336,15 +330,15 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all. ",
+    "I am currently open to work so if you have a opportunity for me then please reach out. ",
   number: "+7880310354",
   email_address: "nikunjraghav511@gmail.com"
 };
@@ -353,10 +347,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
