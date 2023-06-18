@@ -272,7 +272,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Crux course with coding blocks",
+      title: "Crux Course with Coding Blocks",
       subtitle:
         "Hands-on course for developing core programming and advanced Data-Structures concepts",
       image: require("./assets/images/codingblocks.png"),
@@ -290,7 +290,7 @@ const achievementSection = {
     },
 
     {
-      title: "Cyber Security ",
+      title: "Cyber Security",
       subtitle:
         "Specialization in Digital Forensics and Cyber Security at MRIIRS in collaboration with IBM",
       image: require("./assets/images/mriirs.png"),
