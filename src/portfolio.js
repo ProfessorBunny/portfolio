@@ -206,7 +206,7 @@ const bigProjects = {
       image: require("./assets/images/sra.png"),
       projectName: "Website development for SRA Homez",
       projectDesc:
-        "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to lsit all their services in one place.",
+        "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to list all their services in one place.",
       footerLink: [
         {
           name: "Visit Website",
@@ -376,7 +376,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "I am currently open to work so if you have an opportunity for me then please reach out. ",
+    "I am currently open to work so if you have an opportunity for me then please reach out.",
   number: "+7880310354",
   email_address: "nikunjraghav511@gmail.com"
 };
