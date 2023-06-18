@@ -255,7 +255,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Publication in IEEE Xplore",
+      title: "Publication in IEEEEEE Xplore",
       subtitle:
         "HOMER: Cryptography based Currency Detection System for Visually Impaired People",
       image: require("./assets/images/ieee.png"),
@@ -300,7 +300,7 @@ const achievementSection = {
           name: "View Program Highlights",
           url: "https://mriirs.edu.in/course/b-tech-cse-digital-forensics-and-cyber-security-in-association-with-ibm-mriirs/"
         },
-        {name: "Certification", url: ""}
+        { name: "Certification", url: "" }
       ]
     }
   ],
