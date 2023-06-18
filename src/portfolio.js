@@ -376,7 +376,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "I am currently open to work so if you have a opportunity for me then please reach out. ",
+    "I am currently open to work so if you have an opportunity for me then please reach out. ",
   number: "+7880310354",
   email_address: "nikunjraghav511@gmail.com"
 };
