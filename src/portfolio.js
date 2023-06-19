@@ -279,7 +279,7 @@ const achievementSection = {
       imageAlt: "Coding blocks logo",
       footerLink: [
         {
-          name: "View Crux Course Catalog",
+          name: "View Course Catalog",
           url: "https://coding-blocks.github.io/classroom-courses/java-for-beginners.html"
         },
         {
