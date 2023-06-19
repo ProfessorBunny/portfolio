@@ -284,7 +284,7 @@ const achievementSection = {
         },
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1k-U_pX482515QblKi1XLxIl_Xn6zd_sB/view?usp=sharing"
         }
       ]
     },
@@ -300,7 +300,7 @@ const achievementSection = {
           name: "View Program Highlights",
           url: "https://mriirs.edu.in/course/b-tech-cse-digital-forensics-and-cyber-security-in-association-with-ibm-mriirs/"
         },
-        { name: "Certification", url: "" }
+        { name: "Certification", url: "https://drive.google.com/file/d/1k-ihInV1wMV8zBYiika3-kY2kaqqzxs6/view?usp=sharing" }
       ]
     }
   ],
