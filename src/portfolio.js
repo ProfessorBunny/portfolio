@@ -316,6 +316,12 @@ const basicProjects = {
   displayMediumBlogs: "false",
   blogs: [
     {
+      url: "https://unsplash-clone-vite.netlify.app/",
+      title: "Unsplash Clone",
+      description:
+        "React app built using Vite that allows users to search for images using the Unsplash API. The app utilizes React Query to efficiently fetch, render, and manipulate data from the server directly in the React app. By leveraging the React Query cache, rendering data on the frontend becomes faster and more responsive. Additionally, the app provides a feature that enables users to switch between light mode and dark mode based on their preference."
+    },
+    {
       url: "https://to-do-task-react.netlify.app/",
       title: "To Do List",
       description:
@@ -339,12 +345,7 @@ const basicProjects = {
       description:
         "React app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
     },
-    {
-      url: "https://unsplash-clone-vite.netlify.app/",
-      title: "Unsplash Clone",
-      description:
-        "React app built using Vite that allows users to search for images using the Unsplash API. The app utilizes React Query to efficiently fetch, render, and manipulate data from the server directly in the React app. By leveraging the React Query cache, rendering data on the frontend becomes faster and more responsive. Additionally, the app provides a feature that enables users to switch between light mode and dark mode based on their preference."
-    },
+
 
 
     // {
