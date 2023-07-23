@@ -310,11 +310,23 @@ const achievementSection = {
 // Blogs Section
 
 const basicProjects = {
-  title: "Basic Projects",
+  title: "Projects",
   subtitle:
     "With Love for Developing cool stuff here are some basic projects I have built",
   displayMediumBlogs: "false",
   blogs: [
+    {
+      url: "https://to-do-task-react.netlify.app/",
+      title: "To Do List",
+      description:
+        "Todo List React app built using Vite that allows users to add tasks, update their status, and remove them. The app utilizes local storage to store and fetch data, allowing users to save their progress. Additionally, the React Toastify library is used to create toasts for interactive UI feedback."
+    },
+    {
+      url: "https://color-shades-and-tints.netlify.app/",
+      title: "Color Shades And Tint Spawner",
+      description:
+        "React app built using Vite that allows users to pick a color using a color picker or by entering a hex code value. The app then generates different shades and tints of that color. It utilizes the values.js library to generate the list of colors and the browser's built-in Clipboard API to enable users to copy the hex code of the generated colors. Additionally, the React Toastify library is used to create toasts for interactive user interface feedback."
+    },
     {
       url: "https://guessthecolour.glitch.me/",
       title: "Guess The Colour",
@@ -322,17 +334,13 @@ const basicProjects = {
         "A RGB code game web app that generates a random RGB value and set of random colors for user to guess the correct one. It uses DOM manipulation to provide interactive game-play to user."
     },
     {
-      url: "https://yourtodolist.glitch.me/",
-      title: "To Do List",
-      description:
-        "A simple interactive web app build using jQuery that allows user to add new task, mark of old task or completely remove an existing task."
-    },
-    {
       url: "https://monthly-expenses-tracking.netlify.app/",
       title: "Monthly Expense Tracker",
       description:
-        "A React web app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
-    }
+        "React app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
+    },
+
+
     // {
     //   url: "https://food-order-demo-app.netlify.app/",
     //   title: "Food Order App",
