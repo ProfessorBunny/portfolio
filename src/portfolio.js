@@ -204,9 +204,9 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/sra.png"),
-      projectName: "Website development for SRA Homez",
+      projectName: "SRA Homez",
       projectDesc:
-        "A freelance project in which I helped SRA Homez(A startup for home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which allow them to list all their services in one place.",
+        "A freelance project in which I helped SRA Homez (A startup for smart home/home automation projects based in Delhi, India) to create an aesthetically pleasing website for their clients and customers which gives detailed description of their work and allow them to list all their services in one place. ",
       footerLink: [
         {
           name: "Visit Website",
@@ -232,10 +232,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/SLD.png"),
-      projectName: "Real Time SLD",
+      image: require("./assets/images/Cheers Lounge.png"),
+      projectName: "Cheers Lounge",
       projectDesc:
-        "Sign Language Detection Model built completely using Python. Dataset was made of numpy arrays which contained the keypoints that were collected using mediapipe holistic to train a deep neural network model consisting of LSTM layers, then all of it was combined using OpenCV to perform detection in real time.",
+        "This is a React app that allows users to search for various cocktail recipes using the CocktailDB API. The app is built with Vite, utilizing React Router for seamless navigation across multiple pages. React Query is used for caching the data on the server to prevent the app from making multiple requests for the same query, thus providing a faster user interface.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -319,31 +319,37 @@ const basicProjects = {
       url: "https://unsplash-clone-vite.netlify.app/",
       title: "Unsplash Clone",
       description:
-        "React app built using Vite that allows users to search for images using the Unsplash API. The app utilizes React Query to efficiently fetch, render, and manipulate data from the server directly in the React app. By leveraging the React Query cache, rendering data on the frontend becomes faster and more responsive. Additionally, the app provides a feature that enables users to switch between light mode and dark mode based on their preference."
+        "React app that allows users to search for images using the Unsplash API. React query is used for caching the results on server to provide smoother and faster UI"
     },
     {
       url: "https://to-do-task-react.netlify.app/",
       title: "To Do List",
       description:
-        "Todo List React app built using Vite that allows users to add tasks, update their status, and remove them. The app utilizes local storage to store and fetch data, allowing users to save their progress. Additionally, the React Toastify library is used to create toasts for interactive UI feedback."
+        "Todo List React app built using Vite that allows users to add tasks, update their status, and remove them. The app utilizes local storage to store and fetch data."
     },
     {
       url: "https://color-shades-and-tints.netlify.app/",
       title: "Color Shades And Tint Spawner",
       description:
-        "React app built using Vite that allows users to pick a color using a color picker or by entering a hex code value. The app then generates different shades and tints of that color. It utilizes the values.js library to generate the list of colors and the browser's built-in Clipboard API to enable users to copy the hex code of the generated colors. Additionally, the React Toastify library is used to create toasts for interactive user interface feedback."
+        "React app that allows users to pick a color and then generates different shades and tints of that color using value js library."
     },
     {
       url: "https://guessthecolour.glitch.me/",
       title: "Guess The Colour",
       description:
-        "A RGB code game web app that generates a random RGB value and set of random colors for user to guess the correct one. It uses DOM manipulation to provide interactive game-play to user."
+        "A RGB code game web app that generates a random RGB value and set of random colors for user to guess the correct one."
     },
     {
       url: "https://monthly-expenses-tracking.netlify.app/",
       title: "Monthly Expense Tracker",
       description:
-        "React app that allows users to add different expenses and then filter them based on year, along with providing a visual representation of monthly breakdown of expense for the selected year."
+        "React app that allows users to add different expenses and then filter them based on year, along with providing a monthly breakdown."
+    },
+    {
+      url: "https://github.com/ProfessorBunny/real-time-sign-language-detection",
+      title: "Real Time SLD",
+      description:
+        "Sign Language Detection Model built using Python. Dataset was made of numpy arrays by using mediapipe holistic to train a deep neural network model."
     },
 
 
