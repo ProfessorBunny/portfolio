@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8dd9d401.css",
-    "main.js": "/portfolio/static/js/main.3186144e.js",
+    "main.js": "/portfolio/static/js/main.f4bc626c.js",
     "static/css/64.917cfe77.chunk.css": "/portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.afda6840.chunk.js": "/portfolio/static/js/64.afda6840.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/portfolio/static/css/769.70f3b610.chunk.css",
     "static/js/769.aa30f2d3.chunk.js": "/portfolio/static/js/769.aa30f2d3.chunk.js",
-    "static/media/SLD.png": "/portfolio/static/media/SLD.96de7aea78d04e52c8b1.png",
+    "static/media/Cheers Lounge.png": "/portfolio/static/media/Cheers Lounge.c16a40d68307d2b44bfe.png",
     "static/media/sra.png": "/portfolio/static/media/sra.d9df9bdea232be63e9d4.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -19,7 +19,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8dd9d401.css.map": "/portfolio/static/css/main.8dd9d401.css.map",
-    "main.3186144e.js.map": "/portfolio/static/js/main.3186144e.js.map",
+    "main.f4bc626c.js.map": "/portfolio/static/js/main.f4bc626c.js.map",
     "64.917cfe77.chunk.css.map": "/portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.afda6840.chunk.js.map": "/portfolio/static/js/64.afda6840.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/portfolio/static/css/769.70f3b610.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.8dd9d401.css",
-    "static/js/main.3186144e.js"
+    "static/js/main.f4bc626c.js"
   ]
 }
