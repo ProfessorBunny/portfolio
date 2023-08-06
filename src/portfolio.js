@@ -238,8 +238,8 @@ const bigProjects = {
         "This is a React app that allows users to search for various cocktail recipes using the CocktailDB API. The app is built with Vite, utilizing React Router for seamless navigation across multiple pages. React Query is used for caching the data on the server to prevent the app from making multiple requests for the same query, thus providing a faster user interface.",
       footerLink: [
         {
-          name: "Visit Repository",
-          url: "https://github.com/ProfessorBunny/real-time-sign-language-detection"
+          name: "Visit Website",
+          url: "https://cheers-lounge.netlify.app/"
         }
       ]
     }
